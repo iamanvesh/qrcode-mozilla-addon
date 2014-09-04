@@ -1,0 +1,19 @@
+#main-container {
+	width: auto;
+	height: auto;
+}
+
+#paste-div {
+	width: auto;
+	float: left;
+	border-right: 1px solid #f2f2f2;
+	text-align: left;
+	margin-left: 10%
+
+}
+
+#url-div {
+	width : auto;
+	text-align: right;
+	margin-right: 10%;
+}

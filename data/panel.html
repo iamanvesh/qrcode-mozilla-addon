@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="styles.css" />
+	<script type="text/javascript" >
+		function getClipboard() {
+			addon.port.emit("getClipboard");
+		}
+
+		function getUrl() {
+			addon.port.emit("getUrl");
+		}	
+	</script>
+</head>
+<body>
+	<div id="main-container">
+		<div id="paste-div">
+			<img src="paste-16.png" id="paste-icon" alt="paste" onclick="getClipboard()" />
+		</div>
+		<div id="url-div">
+			<img src="globe-16.png" id="url-icon" alt="copy url" onclick="getUrl()" />
+		</div>
+	</div>
+</body>
+</html>

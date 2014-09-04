@@ -1,0 +1,9 @@
+{
+  "name": "qrcode-generator",
+  "title": "A QR code generator",
+  "id": "jid1-EtJeOP4PhjgFJg",
+  "description": "Creates a QR code of the \n1. Url in the current active tab.\n2. Content you have copied \nPlease refrain from generating a qrcode from sensitive data like passwords etc..",
+  "author": "Anvesh Kumar Arrabochu",
+  "license": "MPL 2.0",
+  "version": "0.1"
+}
