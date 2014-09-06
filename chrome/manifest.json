@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+  "name": "QR code generator",
+  "description": "This extension generates a qrcode for the url you are browsing",
+  "version": "1.0",
+
+  "permissions": [
+    "contextMenus",
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "icons" : {
+    "16" : "images/qurl-16.png",
+    "32" : "images/qurl-32.png",
+    "64" : "images/qurl-64.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "19" : "images/qurl-16.png",
+      "38" : "images/qurl-32.png",
+      "72" : "images/qurl-64.png"
+    }
+  },
+  "background" : {
+      "scripts" : ["app.js"],
+      "persistent" : true
+  }
+}
