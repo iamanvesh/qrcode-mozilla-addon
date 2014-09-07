@@ -3,7 +3,6 @@ var menu = chrome.contextMenus.create({
 	"title" : title,
 	"contexts" : ["link", "selection"],
 	"onclick" : function (info, tab) {
-		alert(JSON.stringify(info));
 		if(info.selectionText != "undefined")
 			getQrcode(info.selectionText);
 		else
